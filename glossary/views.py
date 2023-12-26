@@ -4,7 +4,7 @@ from django.views.generic import TemplateView
 from glossary.models import Term
 
 
-class Glossary(TemplateView):
+class GlossaryView(TemplateView):
     template_name = "glossary/glossary.html"
 
     def get_context_data(self, **kwargs):

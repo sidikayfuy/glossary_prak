@@ -2,5 +2,5 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('', views.Glossary.as_view(), name="glossary"),
+    path('', views.GlossaryView.as_view(), name="glossary"),
 ]
